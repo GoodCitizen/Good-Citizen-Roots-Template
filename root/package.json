@@ -7,6 +7,7 @@
     "coffee-script": "1.9.x",
     "css-pipeline": "0.2.x",
     "jade": "1.x",
+    "jeet": "^6.1.2",
     "js-pipeline": "0.2.x",
     "jstransformer-marked": "0.0.x",
     "marked": "0.3.x",
@@ -24,4 +25,3 @@
     }
   }
 }
-
