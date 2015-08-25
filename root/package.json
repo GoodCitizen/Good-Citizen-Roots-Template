@@ -21,7 +21,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./public --domain bbb.surge.sh"
+      "pre-push": "surge --project ./public --domain <%= S(name).dasherize().value() %>.surge.sh"
     }
   }
 }
