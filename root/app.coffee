@@ -10,11 +10,10 @@ module.exports =
     'readme.md',
     '**/layout.*',
     '**/_*',
-    'assets/css/components/**/*',
-    'assets/css/global/**/*',
-    'assets/css/layouts/**/*',
-    'assets/css/structures/**/*',
-    'assets/css/vendor/**/*',
+    'assets/css/1-global/**/*',
+    'assets/css/2-components/**/*',
+    'assets/css/3-layouts/**/*',
+    'assets/css/4-vendor/**/*',
     '.gitignore',
     'ship.*conf'
   ]

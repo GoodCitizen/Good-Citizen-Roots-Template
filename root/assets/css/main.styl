@@ -2,7 +2,6 @@
 =====================================================
   GLOBAL................Reset, Settings, Helpers, and Default HTML elements
   COMPONENTS............Building blocks
-  STRUCTURES............Assembling the building blocks
   LAYOUTS...............Page-specific layout styles
   VENDOR................Bower, Vendor, or plugin-specific styles (that need to come last)
 */
@@ -10,29 +9,25 @@
 // --------------------------------------------------
 //   GLOBAL
 // --------------------------------------------------
-@import "global/normalize"
-@import "global/settings"
-@import "global/helpers"
-@import "global/base"
+@import "1-global/normalize"
+@import "1-global/settings"
+@import "1-global/helpers"
+@import "1-global/base"
 
 // --------------------------------------------------
 //   COMPONENTS
 // --------------------------------------------------
-@import "components/buttons"
-@import "components/forms"
-@import "components/icons"
-@import "components/typography"
-
-// --------------------------------------------------
-//   STRUCTURES
-// --------------------------------------------------
-@import "structures/layout"
-@import "structures/navigation"
+@import "2-components/buttons"
+@import "2-components/forms"
+@import "2-components/icons"
+@import "2-components/typography"
+@import "2-components/layout"
+@import "2-components/navigation"
 
 // --------------------------------------------------
 //   LAYOUTS
 // --------------------------------------------------
-@import "layouts/home"
+@import "3-layouts/home"
 
 // --------------------------------------------------
 //   VENDOR
