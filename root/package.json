@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "git-scripts": "^0.2.1",
-    "surge": "^0.14.3"
+    "surge": "^0.17.2"
   },
   "git": {
     "scripts": {

@@ -1,0 +1,144 @@
+// --------------------------------------------------
+//
+//   FORMS
+//
+// --------------------------------------------------
+
+
+
+
+
+// --------------------------------------------------
+//   GLOBAL
+// --------------------------------------------------
+fieldset
+  margin 0
+  padding 0
+  border none
+  clearfix()
+
+label
+  font-size 11px
+  font-family $lato
+  font-weight 900
+  text-transform uppercase
+  letter-spacing 0.05rem
+  color $brand-gray
+  cursor pointer
+
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="phone"],
+input[type="url"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="password"]
+  padding 25px 0 10px
+  width 100%
+  height 100%
+  display inline-block
+  font-size 20px
+  color $brand-gray-dark
+  background transparent
+  border none
+  border-radius 0
+  outline none
+  -webkit-appearance none
+  -moz-appearance none
+  appearance none
+  box-shadow 0 1px 0 $brand-gray-light
+  transition box-shadow .2s ease-out
+  &:focus
+    box-shadow 0 2px 0 $blue
+  &.parsley-success
+    box-shadow 0 2px 0 $green
+  &.parsley-error
+    box-shadow 0 2px 0 $orange
+
+select
+  padding 25px 0 10px
+  width 100%
+  display block
+  font-size 20px
+  color $brand-gray-dark
+  background transparent url(/img/icon-select-caret.png) 97% 64% no-repeat
+  background-size 11px 6px
+  border none
+  border-radius 0
+  outline none
+  -webkit-appearance none
+  -moz-appearance none
+  appearance none
+  box-shadow 0 1px 0 $brand-gray-light
+  &.parsley-error
+    box-shadow 0 2px 0 $orange
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder
+  color input-placeholder-color
+input:-moz-placeholder,
+textarea:-moz-placeholder
+  color input-placeholder-color
+input::-moz-placeholder,
+textarea::-moz-placeholder
+  color input-placeholder-color
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder
+  color input-placeholder-color
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder
+  opacity .4
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder
+  opacity .4
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder
+  opacity .4
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder
+  opacity .4
+
+.form-control-group
+  margin 0
+  width 100%
+  position relative
+  // border-bottom 1px solid brand-gray-light
+  + .form-control-group
+    margin-top 30px
+  &:last-child
+    // margin-top 45px
+  label
+    position absolute
+    top 5px
+    left 0
+  textarea
+    height 150px
+    display block
+
+// --------------------------------------------------
+//   PARSLEY ERROR VALIDATION
+// --------------------------------------------------
+.parsley-error
+  &::-webkit-input-placeholder,
+  &:focus::-webkit-input-placeholder
+    color $orange
+    opacity .4
+
+.parsley-errors-list
+  margin 0
+  padding 0
+  list-style-type none
+  li
+    padding 3px 0 5px
+    font-size 14px
+    font-family $lato
+    font-weight 900
+    color orange
+    &::before
+      margin-right 10px
+      content '\2191'
+      font-size 15px
+      font-weight 700

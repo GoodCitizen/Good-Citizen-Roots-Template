@@ -1,33 +1,31 @@
 /* Table of Contents
 =====================================================
-  GLOBAL................Reset, Settings, Helpers, and Default HTML elements
+  BASE..................Reset, Settings, Helpers, and Default HTML elements
   COMPONENTS............Building blocks
   LAYOUTS...............Page-specific layout styles
   VENDOR................Bower, Vendor, or plugin-specific styles (that need to come last)
 */
 
 // --------------------------------------------------
-//   GLOBAL
+//   BASE
 // --------------------------------------------------
-@import "1-global/normalize"
-@import "1-global/settings"
-@import "1-global/helpers"
-@import "1-global/base"
+@import 'jeet'
+@import "base/normalize"
+@import "base/settings"
+@import "base/base"
 
 // --------------------------------------------------
 //   COMPONENTS
 // --------------------------------------------------
-@import "2-components/buttons"
-@import "2-components/forms"
-@import "2-components/icons"
-@import "2-components/typography"
-@import "2-components/layout"
-@import "2-components/navigation"
+@import "components/typography"
+// @import "components/buttons"
+// @import "components/forms"
+// @import "components/tables"
 
 // --------------------------------------------------
 //   LAYOUTS
 // --------------------------------------------------
-@import "3-layouts/home"
+@import "layouts/home"
 
 // --------------------------------------------------
 //   VENDOR

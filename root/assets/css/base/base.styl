@@ -1,0 +1,62 @@
+// --------------------------------------------------
+//
+//   BASE
+//
+// --------------------------------------------------
+
+
+
+
+
+// --------------------------------------------------
+//   BORDER BOX
+// --------------------------------------------------
+html
+  box-sizing border-box
+
+*, *:before, *:after
+  box-sizing inherit
+
+
+
+
+
+// --------------------------------------------------
+//   BASE LEVEL TAGS
+// --------------------------------------------------
+html
+  font-size unit($font-size, 'px')
+  font-size unit(($font-size/16)*100, "%")
+
+body
+  margin 0
+  font-family $font-family
+  font-weight $font-weight
+  color $font-color
+  background-color $body-bg
+  -webkit-text-size-adjust 100%
+  -ms-text-size-adjust 100%
+  font-size-adjust auto
+
+h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,
+dl,dd,ol,ul,
+form,fieldset,legend,
+table,th,td,caption,
+hr
+  margin 0
+  padding 0
+
+li
+  display block
+
+a
+  text-decoration underline
+  color link-color
+  transition all .3s ease-in-out
+
+img
+  max-width 100%
+  height auto
+  display block
+  border 0
