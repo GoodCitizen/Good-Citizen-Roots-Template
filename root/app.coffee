@@ -40,6 +40,7 @@ module.exports =
     '.travis.yml'
     '**/layout.*'
     '**/_*'
+    'assets/css/_**/*'
     '**/*.swp'
     '.gitignore'
     '.git'
