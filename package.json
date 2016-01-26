@@ -1,0 +1,31 @@
+{
+  "name": "goodcitizen-base",
+  "description": "A base template for Good Citizen Roots projects",
+  "version": "0.1.0",
+  "author": "John Peele <john@wearegoodcitizen.com>",
+  "devDependencies": {
+    "bluebird": "^3.0.5",
+    "chai": "3.4.1",
+    "chai-as-promised": "5.2.0",
+    "coffee-script": "1.9.x",
+    "mocha": "2.3.3",
+    "rimraf": "2.5.0",
+    "roots": "^3.1.0",
+    "roots-util": "^0.1.0",
+    "shelljs": "^0.5.3",
+    "sprout": "0.4.x"
+  },
+  "keywords": [
+    "roots",
+    "sprout"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/goodcitizen/good-citizen-roots-template"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  }
+}
