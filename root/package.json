@@ -18,31 +18,31 @@
     "axis": "0.5.x",
     "coffee-script": "1.10.x",
     <% if (postcssPlugins["cssnext"] && postcssPlugins["cssnext"].checked) { %>
-      "cssnext": "1.8.x",
+    "cssnext": "1.8.x",
     <% } %>
     "css-pipeline": "0.3.x",
     "jade": "1.x",
     <% if (grid == true) { %>
-      "jeet": "6.1.x",
+    "jeet": "6.1.x",
     <%} -%>
     "js-pipeline": "0.2.x",
     "jstransformer-marked": "1.0.x",
     <% if (grid == true) { %>
-      "lost": "6.6.x",
+    "lost": "6.6.x",
     <%} -%>
     <% if (postcssPlugins["system"] && postcssPlugins["system"].checked) { %>
-      "postcss-system": "0.0.x",
+    "postcss-system": "0.0.x",
     <% } %>
     <% if (postcssPlugins["postcss font pack"] && postcssPlugins["postcss font pack"].checked) { %>
-      "postcss-font-pack": "1.0.x",
+    "postcss-font-pack": "1.0.x",
     <% } %>
     <% if (postcssPlugins["postcss import"] && postcssPlugins["postcss import"].checked) { %>
-      "postcss-import": "7.1.x",
+    "postcss-import": "7.1.x",
     <% } %>
-    "poststylus": "0.2.x"
+    "poststylus": "0.2.x",
     <% if (yaml == true) { %>"roots-yaml": "0.0.x",<%} -%>
     <% if (postcssPlugins["rucksack"] && postcssPlugins["rucksack"].checked) { %>
-      "rucksack-css": "0.8.x",
+    "rucksack-css": "0.8.x",
     <% } %>
     "rupture": "0.6.x",
     "stylus": "0.52.x"
