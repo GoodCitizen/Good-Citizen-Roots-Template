@@ -23,7 +23,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/goodcitizen/good-citizen-roots-template"
+    "url": "https://github.com/GoodCitizen/Good-Citizen-Roots-Template.git"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha"
